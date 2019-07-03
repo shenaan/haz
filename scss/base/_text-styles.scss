@@ -1,0 +1,37 @@
+h1, .h1 {
+}
+
+h2, .h2 {
+
+  @include respond-min(992) {
+
+  }
+  @include respond-min(1200) {
+  }
+}
+
+h3, .h3 {
+
+  @include respond-min(992) {
+  }
+  @include respond-min(1200) {
+  }
+}
+
+h4, .h4 {
+  @include respond-min(992) {
+  }
+  @include respond-min(1200) {
+  }
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+
+  @include respond-min(992) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

@@ -1,0 +1,31 @@
+body,
+html {
+  height: auto !important;
+  &.no-scroll {
+    overflow-y: hidden !important;
+    height: 100% !important;
+  }
+  &.no-scroll-initial{
+    overflow: hidden !important;
+    height: 100% !important;
+  }
+  &.no-scroll-lightbox{
+    overflow: hidden !important;
+    height: auto !important;
+  }
+}
+
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.is-mobile{
+  display: block;
+
+  @include respond-min(992){
+    display: none;
+  }
+}
+
+

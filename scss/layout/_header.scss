@@ -1,0 +1,21 @@
+.header__logo{
+  display: block;
+  width: 100%;
+  margin-bottom: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  img{
+    width: 100%;
+  }
+
+  @include respond-min(576){
+    width: 70%;
+  }
+
+  @include respond-min(992){
+    width: 40%;
+    max-width: 650px;
+  }
+}

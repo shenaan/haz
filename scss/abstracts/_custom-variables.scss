@@ -1,0 +1,21 @@
+$Montserrat: 'montserrat', sans-serif;
+
+$baseFontFamily: $Montserrat;
+
+@mixin font-size($size:18) {
+  font-size: $size * 1px;
+  font-size: ($size / $baseFontSize) * 1rem;
+}
+
+$baseFontSize: 20;
+$baseFontSizePixel: $baseFontSize * 1px;
+
+$baseLineHeight: 1.4;
+$baseLetterSpacing: 0.5px;
+$textColor: #fff;
+$bodyBackground: #2b7e8a;
+$redColor: #fc0000;
+
+$fontsUrl: "../fonts/";
+$imgUrl: "../img/";
+

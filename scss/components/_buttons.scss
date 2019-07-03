@@ -1,0 +1,30 @@
+/*-------------Button-----------------*/
+.page__btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  @include ai-flex-center();
+  @include jc-flex-center();
+  line-height: 1;
+  font-weight: 400;
+  white-space: nowrap;
+  border-radius: 0 !important;
+  background-color: $redColor;
+  padding: 10px 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid $redColor;
+  @include transition-04();
+
+  &:hover{
+    color: $redColor;
+    background-color: #fff;
+  }
+
+  @include respond-min(992){
+    font-size: 16px;
+  }
+}
+
