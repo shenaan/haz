@@ -2,11 +2,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-
+  font-size: 20px;
+  line-height: 24px;
   @include respond-min(992) {
-
-  }
-  @include respond-min(1200) {
+    font-size: 30px;
+    line-height: 36px;
   }
 }
 
