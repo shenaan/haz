@@ -2002,7 +2002,7 @@ body {
 
 .form__input {
   background-color: #fff;
-  padding: 3px 5px;
+  padding: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2013,7 +2013,8 @@ body {
   line-height: 1;
   font-size: 14px;
   color: #000;
-  width: 100%; }
+  width: 100%;
+  border: none; }
   .form__input.placeholder {
     color: #000;
     font-size: 14px; }

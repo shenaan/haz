@@ -34,7 +34,7 @@
 
 .form__input{
   background-color: #fff;
-  padding: 3px 5px;
+  padding: 5px;
   @include display-flex();
   @include ai-flex-center();
   border-radius: 0;
@@ -42,6 +42,7 @@
   font-size: 14px;
   color: #000;
   width: 100%;
+  border: none;
 
   @include input-placeholder(){
     color: #000;
