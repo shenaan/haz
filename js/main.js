@@ -67,7 +67,7 @@ $(document).ready(function () {
 
     $(window).resize(function () {
         if(isMobile()){
-            $('.client-access__link-wrap').fadeIn();
+            // $('.client-access__link-wrap').fadeIn();
             // $('.footer-login__form-wrap').fadeOut();
         }else{
             $('.client-access__link-wrap').fadeIn();
