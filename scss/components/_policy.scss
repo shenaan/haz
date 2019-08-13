@@ -3,8 +3,33 @@
   color: #000;
   h2{
     margin-bottom: 30px;
+    text-align: center;
   }
   p{
     margin-bottom: 20px;
+  }
+  a{
+    color: #000;
+    text-decoration: underline;
+  }
+  ul{
+    margin-left: 20px;
+  }
+  li{
+    position: relative;
+    padding-left: 20px;
+    &:before{
+      content: '';
+      display: block;
+      position: absolute;
+      top: 7px;
+      left: 0;
+      border-radius: 50%;
+      background-color: #000;
+      @include square(5px);
+    }
+    p{
+      margin-bottom: 10px;
+    }
   }
 }
